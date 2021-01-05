@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      body h3 {
+        color: darkgrey;
+      }
+      body h6 {
+        color: darkgray;
+      }
+      #btn {
+        background-color: rgb(87, 10, 175);
+        color: white;
+        font-size: 13px;
+        width: 100px;
+        height: 50px;
+        font-family: "Courier New", Courier, monospace;
+      }
+    </style>
+  </head>
+  <body
+    background="https://media.istockphoto.com/vectors/abstract-white-background-geometric-texture-vector-id909493912?b=1&k=6&m=909493912&s=612x612&w=0&h=xhFLs-u5oofACK4iY3ZH3VJbTpLu5PCKCbx7MAQsOyY="
+  >
+    <h1>Confirm order and pay</h1>
+
+    <h3>
+      Please make the payment, after that you can enjoy all features and
+      benefits.
+    </h3>
+    <br />
+    <br />
+    <br />
+
+    <h4>PAYMENT DETAILS</h4>
+
+    <form>
+      <table>
+        <tr>
+          <td>
+            <h6><label for="Name">Name on card</label></h6>
+            <input type="text" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <h6><label for="Number">Card number</label></h6>
+            <input type="text" />
+          </td>
+          <td>
+            <h6><label for="Expire">Expiry</label></h6>
+            <input type="text" />
+          </td>
+          <td>
+            <h6><label for="CVV">CVV</label></h6>
+            <input type="text" />
+          </td>
+        </tr>
+      </table>
+
+      <h4>BILLING ADDRESS</h4>
+      <table>
+        <tr>
+          <td>
+            <h6><label for="Address">Street address</label></h6>
+            <input type="text" />
+          </td>
+          <td>
+            <h6><label for="City">City</label></h6>
+            <input type="text" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <h6><label for="Location">State/Province</label></h6>
+            <input type="text" />
+          </td>
+          <td>
+            <h6><label for="Code">Zip code</label></h6>
+            <input type="text" />
+          </td>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+      <table>
+        <h6>Previous step</h6>
+
+        <input id="btn" type="submit" value="Pay $840" />
+      </table>
+    </form>
+  </body>
+</html>
